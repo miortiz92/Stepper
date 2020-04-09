@@ -1,0 +1,114 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; 
+}
+html,body{
+  margin:0px;
+  height:100%;
+}
+body {
+  background-image: url('../static/back1.jpg');
+  background-size: cover;
+} 
+#App {
+  background: linear-gradient(to bottom, rgba(30, 33, 53, 0.5) 0%, rgba(30, 33, 53, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+.contain{
+  color: white;
+  margin: 100px 0 20px;
+  width: 800px; 
+  height: 500px;
+  border-radius: 20px;
+  background-size: cover;
+}
+.state__info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0 10px;
+  height: 100%;
+  border-radius: 20px;
+}
+.link, button{ 
+  background-color: transparent;
+  width: 140px;
+  height: 40px;
+  font-weight: bold;
+  border: solid 1px white;
+  border-radius: 60px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.progressBar{
+  height: 10px;
+  padding-bottom: 20px;
+}
+.stepper__container h2{
+  font-size: 20px;
+}
+.stepper__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 0 10px;
+  border: solid 1px #228DCF;
+  background: linear-gradient(to bottom, rgba(30, 33, 53,1) 0%, rgb(33, 78, 104) 100%);
+}
+.stepperState__info{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+.state__info-img{
+  height: 40px;
+  margin: 10px 0 10px;
+}
+.state__buttons{
+  top: 500px;
+  padding: 10px 25px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.state__buttons button{
+  border-radius: 60px;
+}
+.icon{
+  text-align: center;
+  padding: 10px 0px 0px;
+  border: 2px dashed #45C1EE;
+  border-radius: 12px;
+  color: #45C1EE;
+  width: 160px;
+}
+.icon h3{
+  margin-top: 10px;
+  font-size: 18px;
+}
+.icon img{
+  height: 140px;
+} 
+.component{
+  text-align: center;
+  padding: 10px 0px 10px;
+  width: 400px;
+}
+.component img{
+  height: 70px;
+}
+.component h3{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.link:hover{
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,25 @@
+.initStepper__container h2{
+    font-size: 20px;
+  }
+.initStepper__container{
+  background-image: url('../static/back2.jpg');
+}
+.initState__info{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%, rgb(41, 13, 105) 100%);
+}
+.initStepper__container img{
+  margin: 20px 0 25%;
+
+}
+.initStepper__container p{
+  color: yellow;
+  font-weight: bolder;
+  font-size: 35px;
+}
+.initStepper__container h1{
+  font-weight: bold;
+  font-size: 55px;
+}
+
+
+

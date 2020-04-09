@@ -1,0 +1,23 @@
+
+.finishStepper__container{
+  background: linear-gradient(to bottom, rgba(30, 33, 53,1) 0%, rgba(8, 32, 46,1) 100%);
+}
+
+.initStepper__container img{
+  margin: 20px 0 25%;
+
+}
+.initStepper__container p{
+  font-weight: bolder;
+  font-size: 25px;
+}
+.finishStepper__container button{
+  border-radius: 60px;
+}
+.check{
+    margin: 50px 0 30px;
+    height: 130px;
+}
+
+
+
